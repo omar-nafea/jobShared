@@ -34,6 +34,7 @@ class JobApplication extends Model
   {
     return [
       'deleted_at' => 'datetime',
+      'aiGeneratedScore' => 'float',
     ];
   }
 
